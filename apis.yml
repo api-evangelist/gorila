@@ -1,8 +1,28 @@
 aid: gorila
 name: Gorila
-description: 'Gorila is a company surfaced as a portfolio company of ribbit-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Gorila is a Brazilian investment-technology company that consolidates,
+  calculates, and reconciles investment portfolios across every custodian. Its
+  developer product, GorilaCORE, is a B2B REST API that lets financial
+  institutions, fintechs, brokerages, multi-family offices, and advisors build
+  their own investment-consolidation and portfolio-analytics experiences:
+  create portfolios, ingest transactions, and retrieve NAV, P&L, time-weighted
+  return (TWR), and internal-rate-of-return (IRR) time series computed from
+  millions of transactions across hundreds of thousands of products. Gorila is
+  backed by Ribbit Capital.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://gorila.com.br/img/preview-site.webp
 url: https://raw.githubusercontent.com/api-evangelist/gorila/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +32,84 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
-apis: []
+- Investments
+- Portfolio Management
+- Wealth Management
+- Financial Data
+- Investment Consolidation
+- Brazil
+- API
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis:
+- name: GorilaCORE
+  description: >-
+    B2B REST API for investment-portfolio consolidation and analytics: create
+    portfolios, ingest transactions, and retrieve NAV, P&L, TWR, and IRR time
+    series. Authenticated with a static API key in the Authorization header.
+  humanURL: https://gorila.com.br/core/
+  baseURL: https://core.gorila.com.br
+  tags:
+  - Investments
+  - Portfolio Management
+  - Financial Data
+  properties:
+  - type: Documentation
+    url: https://core.gorila.com.br/docs
+  - type: APIReference
+    url: https://gorila.com.br/core/en/api/
+  - type: GettingStarted
+    url: https://gorila.com.br/core/en/docs/quickstart/
+  - type: Authentication
+    url: authentication/gorila-authentication.yml
 common:
 - type: Website
   url: https://gorila.com.br
+- type: DeveloperPortal
+  url: https://gorila.com.br/core/developers/
+- type: Documentation
+  url: https://core.gorila.com.br/docs
+- type: APIReference
+  url: https://gorila.com.br/core/en/api/
+- type: GettingStarted
+  url: https://gorila.com.br/core/en/docs/quickstart/
+- type: ChangeLog
+  url: https://gorila.com.br/core/changelog/
+- type: Blog
+  url: https://gorila.com.br/blog/
+- type: Support
+  url: https://gorila.com.br/contato/
+- type: GitHubOrganization
+  url: https://github.com/gorilainvest
+- type: StatusPage
+  url: https://status.gorila.com.br/
+- type: SignUp
+  url: https://view.gorila.com.br/
+- type: TermsOfService
+  url: https://gorila.com.br/termos-de-uso/
+- type: PrivacyPolicy
+  url: https://gorila.com.br/politica-de-privacidade/
+- type: Authentication
+  url: authentication/gorila-authentication.yml
+- type: Conventions
+  url: conventions/gorila-conventions.yml
+- type: Lifecycle
+  url: lifecycle/gorila-lifecycle.yml
+- type: MCPServer
+  url: mcp/gorila-mcp.yml
+- type: LLMsTxt
+  url: llms/gorila-llms.txt
+- type: DomainSecurity
+  url: security/gorila-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

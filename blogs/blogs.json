@@ -1,0 +1,21 @@
+{
+  "repo": "gorila",
+  "feeds": [
+    {
+      "source": "https://gorila.com.br/core/changelog/rss.xml",
+      "feed_url": "https://gorila.com.br/core/changelog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://gorila.com.br/core/changelog/",
+      "feed_url": "https://gorila.com.br/core/changelog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-07-25T15:00:33Z"
+}

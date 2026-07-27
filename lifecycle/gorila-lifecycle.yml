@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.gorila.com.br/
+api: GorilaCORE
+versioning:
+  scheme: unversioned-path
+  current: null
+  docs: https://gorila.com.br/core/en/docs/quickstart/
+  notes: No explicit version segment published on the documented endpoints.
+deprecation:
+  policy_url: null
+  sunset_header: unknown
+  notes: No deprecation policy or RFC 8594 Sunset/Deprecation header support documented.
+sla:
+  url: null
+  uptime_target: null
+status_page: https://status.gorila.com.br/
+changelog: https://gorila.com.br/core/changelog/
+deprecated_operations: []

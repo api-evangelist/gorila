@@ -1,0 +1,36 @@
+# Gorila (GorilaCORE)
+
+> Gorila is a Brazilian investment-technology company that consolidates, calculates, and reconciles investment portfolios across every custodian. Its developer product, GorilaCORE, is a B2B REST API for building investment-consolidation and portfolio-analytics experiences: create portfolios, ingest transactions, and retrieve NAV, P&L, time-weighted return (TWR), and internal-rate-of-return (IRR) time series computed from millions of transactions. Backed by Ribbit Capital.
+
+## API
+- [GorilaCORE overview](https://gorila.com.br/core/): Investment-consolidation API for institutions, fintechs, and advisors
+- [Base URL](https://core.gorila.com.br): Root host for all GorilaCORE API requests
+- [API Reference](https://gorila.com.br/core/en/api/): Endpoint reference for GorilaCORE
+- [Quick start](https://gorila.com.br/core/en/docs/quickstart/): Auth + first requests
+- [Changelog](https://gorila.com.br/core/changelog/): Dated release notes
+
+## Authentication
+- Static API key sent verbatim in the HTTP `Authorization` header (no Bearer prefix). See authentication/gorila-authentication.yml
+
+## Operations (documented)
+- POST /portfolios: Create a portfolio
+- POST /portfolios/{portfolio_id}/transactions: Add a transaction
+- GET /portfolios/{portfolio_id}/nav: Net Asset Value time series
+- GET /portfolios/{portfolio_id}/pnl: Profit & Loss time series
+- GET /portfolios/{portfolio_id}/twr: Time-Weighted Return time series
+- GET /portfolios/{portfolio_id}/positions/irr: Internal Rate of Return by position
+
+## Docs
+- [Developer Portal](https://gorila.com.br/core/developers/)
+- [Documentation](https://core.gorila.com.br/docs)
+- [Status](https://status.gorila.com.br/)
+- [Blog](https://gorila.com.br/blog/)
+- [Terms of Use](https://gorila.com.br/termos-de-uso/)
+- [Privacy Policy](https://gorila.com.br/politica-de-privacidade/)
+
+## Artifacts (API Evangelist enrichment)
+- [Authentication](authentication/gorila-authentication.yml)
+- [Conventions](conventions/gorila-conventions.yml)
+- [Lifecycle](lifecycle/gorila-lifecycle.yml)
+- [MCP (candidate)](mcp/gorila-mcp.yml)
+- [Domain security](security/gorila-domain-security.yml)

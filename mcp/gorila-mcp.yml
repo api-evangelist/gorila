@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: derived
+status: candidate
+source: https://gorila.com.br/core/en/docs/quickstart/
+notes: >-
+  Gorila publishes no official hosted/remote MCP server. This is a CANDIDATE
+  tool list derived from the publicly documented GorilaCORE operations, offered
+  as a starting point for an MCP wrapper — not a provider claim.
+server:
+  name: gorila-core
+  transport: http
+  url: null
+tools:
+- name: create_portfolio
+  description: Create an investment portfolio
+  source_operation: POST https://core.gorila.com.br/portfolios
+- name: add_transaction
+  description: Add a transaction to a portfolio
+  source_operation: POST https://core.gorila.com.br/portfolios/{portfolio_id}/transactions
+- name: get_nav
+  description: Retrieve the Net Asset Value (NAV) time series for a portfolio
+  source_operation: GET https://core.gorila.com.br/portfolios/{portfolio_id}/nav
+- name: get_pnl
+  description: Retrieve the Profit & Loss (P&L) time series for a portfolio
+  source_operation: GET https://core.gorila.com.br/portfolios/{portfolio_id}/pnl
+- name: get_twr
+  description: Retrieve the Time-Weighted Return (TWR) time series for a portfolio
+  source_operation: GET https://core.gorila.com.br/portfolios/{portfolio_id}/twr
+- name: get_position_irr
+  description: Retrieve Internal Rate of Return (IRR) by position for a portfolio
+  source_operation: GET https://core.gorila.com.br/portfolios/{portfolio_id}/positions/irr

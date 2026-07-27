@@ -1,0 +1,44 @@
+generated: '2026-07-19'
+method: searched
+source: https://gorila.com.br/core/en/docs/quickstart/
+api: GorilaCORE
+base_url: https://core.gorila.com.br
+authentication:
+  style: api-key-header
+  header: Authorization
+  ref: authentication/gorila-authentication.yml
+idempotency:
+  supported: false
+  notes: >-
+    No idempotency-key header or replay-safe write contract is documented on the
+    public GorilaCORE developer surface as of this pass. Do NOT emit an
+    Idempotency pointer until the provider documents one.
+pagination:
+  style: date-range-timeseries
+  notes: >-
+    Analytics/time-series endpoints (NAV, P&L, TWR) are windowed by query
+    parameters rather than cursor/offset paging.
+  params:
+    - startDate
+    - endDate
+    - frequency   # e.g. DAILY
+  response_fields:
+    - timeseries[]      # array of { referenceDate, <metric>, currency }
+    - referenceDate
+    - currency          # e.g. BRL
+versioning:
+  scheme: unversioned-path
+  notes: >-
+    Documented endpoints are served from the root path (POST /portfolios,
+    GET /portfolios/{id}/nav, ...); no explicit version segment is published.
+error_envelope:
+  format: unknown
+  notes: >-
+    Error response shape is not documented on the public quickstart; not
+    captured here to avoid fabrication.
+rate_limiting:
+  signaled: unknown
+  notes: No rate-limit headers or published quotas found on the public docs.
+cross_links:
+  authentication: authentication/gorila-authentication.yml
+  lifecycle: lifecycle/gorila-lifecycle.yml
