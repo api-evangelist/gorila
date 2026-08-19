@@ -2,10 +2,9 @@ generated: '2026-07-19'
 method: derived
 status: candidate
 source: https://gorila.com.br/core/en/docs/quickstart/
-notes: >-
-  Gorila publishes no official hosted/remote MCP server. This is a CANDIDATE
-  tool list derived from the publicly documented GorilaCORE operations, offered
-  as a starting point for an MCP wrapper — not a provider claim.
+notes: Gorila publishes no official hosted/remote MCP server. This is a CANDIDATE tool list derived from
+  the publicly documented GorilaCORE operations, offered as a starting point for an MCP wrapper — not
+  a provider claim.
 server:
   name: gorila-core
   transport: http
@@ -29,3 +28,9 @@ tools:
 - name: get_position_irr
   description: Retrieve Internal Rate of Return (IRR) by position for a portfolio
   source_operation: GET https://core.gorila.com.br/portfolios/{portfolio_id}/positions/irr
+deployment:
+  mode: none
+  verified: derived
+  tools: 6
+  checked: '2026-08-12'
+  source: catalog MCP census
