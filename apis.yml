@@ -37,6 +37,15 @@ tags:
 - Company
 - Fintech
 - Investments
+- Portfolio-Management
+- Wealth Management
+- Financial Data
+- Investment Consolidation
+- Brazil
+tags_raw:
+- Company
+- Fintech
+- Investments
 - Portfolio Management
 - Wealth Management
 - Financial Data
@@ -57,6 +66,10 @@ apis:
   humanURL: https://gorila.com.br/core/
   baseURL: https://core.gorila.com.br
   tags:
+  - Investments
+  - Portfolio-Management
+  - Financial Data
+  tags_raw:
   - Investments
   - Portfolio Management
   - Financial Data
