@@ -10,6 +10,17 @@ description: >-
   return (TWR), and internal-rate-of-return (IRR) time series computed from
   millions of transactions across hundreds of thousands of products. Gorila is
   backed by Ribbit Capital.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
