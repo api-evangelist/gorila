@@ -48,7 +48,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Fintech
-- Investments
+- Investment
 - Portfolio-Management
 - Wealth Management
 - Financial Data
@@ -78,7 +78,7 @@ apis:
   humanURL: https://gorila.com.br/core/
   baseURL: https://core.gorila.com.br
   tags:
-  - Investments
+  - Investment
   - Portfolio-Management
   - Financial Data
   tags_raw:
