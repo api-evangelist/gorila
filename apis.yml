@@ -49,7 +49,7 @@ tags:
 - Company
 - Fintech
 - Investment
-- Portfolio-Management
+- Portfolio Management
 - Wealth Management
 - Financial Data
 - Investment Consolidation
@@ -64,6 +64,7 @@ tags_raw:
 - Investment Consolidation
 - Brazil
 - API
+- Portfolio-Management
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -79,12 +80,13 @@ apis:
   baseURL: https://core.gorila.com.br
   tags:
   - Investment
-  - Portfolio-Management
+  - Portfolio Management
   - Financial Data
   tags_raw:
   - Investments
   - Portfolio Management
   - Financial Data
+  - Portfolio-Management
   properties:
   - type: Documentation
     url: https://core.gorila.com.br/docs
