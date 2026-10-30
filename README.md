@@ -64,6 +64,101 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Gorila is a company surfaced as a portfolio company of ribbit-capital and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.
+Gorila is a Brazilian investment-technology company that consolidates, calculates, and reconciles investment portfolios across every custodian. Its developer product, GorilaCORE, is a B2B REST API that lets financial institutions, fintechs, brokerages, multi-family offices, and advisors build their own investment-consolidation and portfolio-analytics experiences: create portfolios, ingest transactions, and retrieve NAV, P&L, time-weighted return (TWR), and internal-rate-of-return (IRR) time series computed from millions of transactions across hundreds of thousands of products. Gorila is backed by Ribbit Capital.
 
-Backed by: ribbit-capital — https://gorila.com.br
+**Areas:** Company · Fintech · Investment · Portfolio Management · Wealth Management · Financial Data · Investment Consolidation · Brazil
+
+## Gorila on APIs.io
+
+Everything profiled for Gorila is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gorila/](https://apis.io/providers/gorila/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [GorilaCORE](https://apis.io/apis/gorila/gorilacore/) — B2B REST API for investment-portfolio consolidation and analytics: create portfolios, ingest transactions, and retrieve NAV, P&L, TWR, and IRR time series.…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [gorila-core](https://apis.io/servers/gorila/gorila-core/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gorila Authentication](https://apis.io/security/gorila/gorila-authentication/)
+- [Gorila Domain Security](https://apis.io/security/gorila/gorila-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://gorila.com.br)
+- [Documentation](https://core.gorila.com.br/docs)
+- [Getting started](https://gorila.com.br/core/en/docs/quickstart/)
+- [API reference](https://gorila.com.br/core/en/api/)
+- [Sign up](https://view.gorila.com.br/)
+- [Support](https://gorila.com.br/contato/)
+- [Changelog](https://gorila.com.br/core/changelog/)
+- [Blog](https://gorila.com.br/blog/)
+- [Terms of service](https://gorila.com.br/termos-de-uso/)
+- [Privacy policy](https://gorila.com.br/politica-de-privacidade/)
+- [GitHub](https://github.com/gorilainvest)
+- [Status](https://status.gorila.com.br/)
+
+## API Evangelist rating
+
+**Kin Score 30.7** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 34.2 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gorila/](https://apis.io/providers/gorila/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Gorila: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gorila/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
